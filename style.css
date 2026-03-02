@@ -1,0 +1,75 @@
+
+
+/* Rounded Premium Navbar */
+.custom-navbar {
+    background: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    height: 90px;              /* Navbar height */
+    display: flex;
+    align-items: center;       /* Center all items vertically */
+}
+
+/* Remove extra spacing */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Logo control */
+.logo-img {
+    height: 40px;      /* Adjust size here */
+    width: auto;
+    margin-top: 15px;  /* Increase this to move logo down */
+}
+
+/* Nav link style */
+.nav-link {
+    color: #555 !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #6D2E3D !important;
+}
+
+/* Search icon */
+.search-icon {
+    font-size: 18px;
+}
+/* Solid Blue Button */
+.btn-primary-custom {
+    background-color: #6D2E3D
+    ;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #6D2E3D
+    ;
+    transform: translateY(-2px);
+}
+
+/* Outline Button */
+.btn-outline-custom {
+    background-color: transparent;
+    color: #6D2E3D;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 2px solid #6D2E3D;
+    transition: 0.3s ease;
+}
+
+.btn-outline-custom:hover {
+    background-color: #6D2E3D
+    ;
+    color: white;
+}
