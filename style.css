@@ -73,3 +73,137 @@
     ;
     color: white;
 }
+/* Trusted By */
+/* Trusted Section */
+.trusted-section {
+    background: #ffffff;
+}
+
+.trusted-title {
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Slider */
+.logo-slider {
+    overflow: hidden;
+    position: relative;
+}
+
+/* Moving Track */
+.logo-track {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    width: max-content;
+    animation: scroll 25s linear infinite;
+}
+
+/* Logo Box */
+.logo-item {
+    width: px;      /* Same width for all */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo Image */
+.logo-item img {
+    max-height: 100px;  /* Uniform height */
+    max-width: 100%;
+    object-fit: contain;
+    opacity: 0.7;
+    transition: 0.3s ease;
+}
+
+.logo-item img:hover {
+    opacity: 1;
+}
+
+/* Animation */
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+.btn-primary{
+   background-color: #6D2E3D;
+     background-color: #6D2E3D !important;   /* Maroon */
+    border-color: #6D2E3D!important;
+}
+
+.btn-primary:hover {
+    background-color: #6D2E3D!important;   /* Dark maroon hover */
+    border-color: #6D2E3D !important;
+}
+
+
+
+.care-section {
+  padding: 100px 0;
+ 
+  text-align: center;
+  margin-top: 80px;
+}
+
+.care-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.care-subtitle {
+  color: #6D2E3D;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.care-title {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.care-desc {
+  max-width: 650px;
+  margin: 0 auto 60px;
+  color: #666;
+}
+
+.care-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.care-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: 0.4s;
+}
+
+.care-card:hover {
+   background-color: #6D2E3D;
+  transform: translateY(-8px);
+
+}
+.care-card:hover h3,
+.care-card:hover p{
+    color:#fffdfe;
+}
+
+.care-icon {
+  font-size: 35px;
+  color: #ff4c60;
+}
+

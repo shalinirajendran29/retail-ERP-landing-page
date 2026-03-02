@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Retail Erp Landing Page</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 </head>
 <!-- NAVBAR START -->
@@ -16,8 +17,8 @@
 
         <!-- Logo -->
         <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
-            <img src="assets/images/logo2.png" alt ="unitive">
-            
+            <img src="assets/images/logo2.png" alt="unitive">
+
         </a>
 
         <!-- Toggle -->
@@ -63,44 +64,155 @@
     </nav>
 </div>
 <!-- NAVBAR END -->
-    
-    <!-- HERO SECTION -->
-    <div class="container py-5 px-5" >
-        <div class="row align-items-center text-center text-lg-start">
 
-            <!-- LEFT CONTENT -->
-            <div class="col-12 text-center">
-                <h1 class="fw-bold display-5">
-                    Boost Your Jewelry Sales in Just One Click
-                </h1>
+<!-- HERO SECTION -->
+<div class="container py-5 px-5">
+    <div class="row align-items-center text-center text-lg-start">
 
-                <p class="text-muted mt-3">
-                   Smart Retail ERP for gold & silver shops — manage stock, billing, and customers without hassle
-                </p>
+        <!-- LEFT CONTENT -->
+        <div class="col-12 text-center">
+            <h1 class="fw-bold display-5">
+                Boost Your Jewelry Sales in Just One Click
+            </h1>
 
-                <div class="mt-4 d-flex flex justify-content-center gap-3 flex-wrap">
-                    <button class="btn btn-primary-custom mb-3 mb-sm-0 me-sm-3">
-                        Request Demo
-                    </button>
+            <p class="text-muted mt-3">
+                Smart Retail ERP for gold & silver shops — manage stock, billing, and customers without hassle
+            </p>
 
-                    <button class="btn btn-outline-custom">
-                        Access Sandbox
-                    </button>
-                </div>
+            <div class="mt-4 d-flex flex justify-content-center gap-3 flex-wrap">
+                <button id="demoBtn" class="btn btn-primary-custom mb-3 mb-sm-0 me-sm-3">
+                    Request Demo
+                </button>
+
+                <button class="btn btn-outline-custom">
+                    Access Sandbox
+                </button>
             </div>
-
-           
-            </div>
-
         </div>
-         <!-- dashboard IMAGE -->
-            <div class="col-12 text-center">
-                <img src="assets/images/Super Admin Dashboard (2).png" 
-                     class="img-fluid rounded shadow" 
-                     alt="Dashboard Preview">
+        <!-- Demo Form (Hidden Initially) -->
+
+<div id="formContainer" style="display:none;" class="container mt-5">
+    <div class="card p-4 shadow">
+        <h4 class="mb-3 text-center">Request Demo</h4>
+
+        <form id="demoForm">
+            <input type="text" name="name" class="form-control mb-3" placeholder="Your Name" required>
+
+            <input type="email" name="email" class="form-control mb-3" placeholder="Your Email" required>
+
+            <input type="tel" name="phone" class="form-control mb-3" placeholder="Phone Number" required>
+
+            <input type="text"name="company" class="form-control mb-3" placeholder="Company Name"required>
+
+            <button type="submit" class="btn btn-primary w-100">
+                Submit
+            </button>
+        </form>
+    </div>
+</div>
+
+
     </div>
 
-    <!-- Bootstrap JS -->
+</div>
+<!-- dashboard IMAGE -->
+<div class="col-12 text-center">
+    <img src="assets/images/Super Admin Dashboard (2).png" class="img-fluid rounded shadow" alt="Dashboard Preview">
+</div>
+
+<!-- TRUSTED BY SECTION -->
+<section class="trusted-section py-5">
+    <div class="container text-center">
+
+        <h6 class="trusted-title mb-4">Trusted by</h6>
+
+        <div class="logo-slider">
+            <div class="logo-track">
+
+                <!-- Logos -->
+                <div class="logo-item"><img src="assets/images/logo1.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/chaneria.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/ramvell.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/grt.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/shanthi.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/thangamayil.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/chaneria.png" alt=""></div>
+
+                <!-- Duplicate for smooth infinite scroll -->
+                <div class="logo-item"><img src="assets/images/grt.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/ramvell.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/shanthi.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/thangamayil.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/grt.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/shanthi.png" alt=""></div>
+                <div class="logo-item"><img src="assets/images/logo2.png" alt=""></div>
+
+            </div>
+        </div>
+        <div>
+            <section class="care-section">
+                <div class="care-container">
+
+                    <p class="care-subtitle">What Makes Our Reatil ERP Poweful?</p>
+                    <h2 class="care-title">From billing to Business Intelligence-One unified platform</h2>
+                    <p class="care-desc">
+                        An enterprise-grade Retail ERP built for gold and silver jewellery businesses, designed to
+                        manage high-value inventory and multi-branch operations with precision. From smart billing and
+                        automated pricing to attendance, gate management, and real-time reporting — everything is
+                        unified into one powerful, centralized platform.
+                    </p>
+
+                    <div class="care-grid">
+
+                        <div class="care-card">
+                            <div class="care-icon">💻</div>
+                            <div>
+                                <h3>Smart billing System</h3>
+                                <p>Fast billing with live gold rate updates, automatic making charge calculation,
+                                    seamless multi-payment options, and a mobile app for instant estimates.</p>
+                            </div>
+                        </div>
+
+                        <div class="care-card">
+                            <div class="care-icon">🧠</div>
+                            <div>
+                                <h3>Inventory intelligence</h3>
+                                <p>Real-time tracking of gold, silver & jewellery stock with weight-wise and grn-wise
+                                    control</p>
+                            </div>
+                        </div>
+
+                        <div class="care-card">
+                            <div class="care-icon">⚙️</div>
+                            <div>
+                                <h3>Employee Attendance & gate control</h3>
+                                <p>Advanced biometric and AI-powered face recognition system ensuring secure access,
+                                    accurate attendance, and real-time centralized workforce monitoring..</p>
+                            </div>
+                        </div>
+
+                        <div class="care-card">
+                            <div class="care-icon">🚀</div>
+                            <div>
+                                <h3>Multi-Branch Business control</h3>
+                                <p>Manage all outlets from a single dashboard with seamless stock transfers, live
+                                    reports, and branch-wise profit analysis for complete business visibility..</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+</section>
+
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- ✅ EmailJS CDN ADD HERE -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="js/script.js"></script>
 </body>
+
 </html>
