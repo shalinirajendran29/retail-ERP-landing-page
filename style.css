@@ -73,6 +73,31 @@
     ;
     color: white;
 }
+/* ===== Cancel Button Premium Style ===== */
+.btn-cancel-custom {
+    background-color: #ffffff;
+    color: #6D2E3D;
+    border: 2px solid #6D2E3D;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.btn-cancel-custom:hover {
+    background-color: #f8f5f6;
+    color: #6D2E3D;
+    transform: translateY(-2px);
+}
+
+/* Remove Black Click Effect */
+.btn-cancel-custom:focus,
+.btn-cancel-custom:active {
+    background-color: #ffffff !important;
+    color: #6D2E3D !important;
+    box-shadow: none !important;
+}
+
 /* Trusted By */
 /* Trusted Section */
 .trusted-section {
@@ -207,3 +232,125 @@
   color: #ff4c60;
 }
 
+/* ===== Video Square Layout ===== */
+
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== FULL BACKGROUND HERO SECTION ===== */
+.hero-video-section {
+  min-height: 60vh;
+background: linear-gradient(135deg, #f7f7f7, #f0efef);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* ===== HEADING ===== */
+.hero-video-section h2 {
+  color: #6D2E3D;
+  font-size: 34px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+/* ===== CENTER VIDEO BOX ===== */
+.video-box {
+  width: 95%;
+  max-width: 1200px;
+  aspect-ratio: 16 / 9;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 25px 80px rgba(0,0,0,0.25);
+}
+
+/* ===== VIDEO STYLE ===== */
+.video-box iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .hero-video-section h2 {
+    font-size: 24px;
+  }
+
+  .video-box {
+    width: 95%;
+  }
+}
+/*footer*/
+footer {
+    background: #6D2E3D;
+    color: white;
+    padding: 50px 0 0;
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-box h3 {
+    margin-bottom: 15px;
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box ul li {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.footer-box ul li:hover {
+    color: rgb(255, 255, 255);
+}
+
+.social img {
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    text-align: center;
+    padding: 15px;
+    background: #ffffff;
+    color: #6D2E3D;
+    margin-top: 20px;
+}
+.footer-box:last-child {
+    margin-right: -40px;   /* value adjust pannunga */
+}

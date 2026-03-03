@@ -6,6 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("formContainer").style.display = "block";
         document.getElementById("formContainer").scrollIntoView({ behavior: "smooth" });
     });
+    document.getElementById("cancelBtn").addEventListener("click", function () {
+    document.getElementById("formContainer").style.display = "none";
+    document.getElementById("demoForm").reset();
+});
 
     // EmailJS Initialize
     emailjs.init("Okxs_6Es2Bg3KD17F");
