@@ -12,6 +12,15 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("formContainer").style.display = "block";
     document.getElementById("formContainer").scrollIntoView({ behavior: "smooth" });
 });
+  //hero button
+    document.getElementById("footerDemoBtn").addEventListener("click", function(e) {
+    e.preventDefault();
+    document.getElementById("formContainer").style.display = "block";
+    document.getElementById("formContainer").scrollIntoView({ behavior: "smooth" });
+});
+
+
+   
     document.getElementById("cancelBtn").addEventListener("click", function () {
     document.getElementById("formContainer").style.display = "none";
     document.getElementById("demoForm").reset();
