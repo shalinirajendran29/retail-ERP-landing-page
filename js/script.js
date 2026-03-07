@@ -40,7 +40,7 @@ e.preventDefault();
 form.style.display = "block";
 form.style.position = "fixed";
 form.style.top = "30%";
-form.style.left = "80%";
+form.style.left = "60%";
 form.style.transform = "translate(-50%, -50%)";
 
 };
