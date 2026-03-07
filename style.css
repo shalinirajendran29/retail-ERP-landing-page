@@ -57,6 +57,7 @@
 /*navbar end*/
 
 /*hero section*/
+
 .jewel-section{
 background:#6D2E3D;
 padding:80px 10%;
@@ -74,10 +75,12 @@ padding:80px 5%;
 /* IMAGE */
 
 .jewel-image img{
-width:1500px;
+width:2000px;
 max-width: 100%;
 transition:0.4s;
 cursor:pointer;
+margin-left: 120px;
+
 }
 
 /* HOVER EFFECT */
@@ -90,7 +93,7 @@ filter:brightness(1.1);
 /* TEXT */
 
 .jewel-content{
-max-width:520px;
+max-width:750px;
 }
 
 .tag{
@@ -127,7 +130,17 @@ transition:0.3s;
 }
 
 
-/*Form button start */
+/*Form button end */
+
+/* Demo Form Popup start */
+#formContainer{
+display:none;
+position:absolute;
+width:350px;
+z-index:9999;
+
+}
+/* Demo Form Popup end*/
 /*submit button */
 .btn-primary{
 background-color:#6D2E3D !important;
@@ -198,7 +211,7 @@ transform:translateY(-5px);
 /* Image */
 
 .dashboard-image img{
-width:550px;
+width:400px;
 height:390px;
 border-radius:10px;
 }
@@ -245,6 +258,7 @@ color:#6D2E3D;
 .dashboard-card:hover{
 box-shadow:0 0 10px #6D2E3D;
 }
+
 /*Card 1 section start*/
 /* 3card start */
 .features-section{
@@ -279,7 +293,7 @@ margin-bottom:50px;
 display:flex;
 gap:30px;
 justify-content:center;
-flex-wrap:No wrap;
+flex-wrap:nowrap ;
 }
 
 /* CARD DESIGN */
@@ -526,7 +540,7 @@ transition:0.3s;
 /* Image */
 
 .retail-image img{
-width:700px;
+width:600px;
 height: 600px;
 max-width:100%;
 
@@ -631,63 +645,21 @@ color:white;
 }
 
 
-/* =========================
-MOBILE RESPONSIVE
-========================= */
+/* ---------------- RESPONSIVE DESIGN ---------------- */
 
-@media (max-width: 768px){
+/* Tablet */
 
-/* Top bar */
-
-.top-content{
-flex-direction:column;
-gap:5px;
-font-size:12px;
-padding:8px 10px;
-}
-
-/* Navbar */
-
-.navbar{
-padding:10px 15px;
-}
-
-.logo img{
-width:120px;
-}
-
-.navdemo-btn{
-padding:8px 14px;
-font-size:14px;
-}
-
-/* HERO SECTION */
+@media (max-width:1024px){
 
 .jewel-container{
 flex-direction:column;
 text-align:center;
-padding:40px 10px;
 gap:40px;
 }
-
-.jewel-content h1{
-font-size:28px;
-}
-
-.jewel-content p{
-font-size:14px;
-}
-
-.jewel-image img{
-width:100%;
-}
-
-/* DASHBOARD CARD */
 
 .dashboard-card{
 flex-direction:column;
 text-align:center;
-padding:20px;
 }
 
 .dashboard-image img{
@@ -695,33 +667,14 @@ width:100%;
 height:auto;
 }
 
-.dashboard-content{
-text-align:center;
-}
-
-/* FEATURES */
-
-.features-container{
-gap:30px;
-}
-
-.feature-box{
-width:120px;
-}
-
-/* 3 CARDS */
-
 .cards{
-flex-direction:column;
-align-items:center;
+flex-wrap:wrap;
 }
 
 .card{
-width:100%;
-max-width:350px;
+flex:0 0 45%;
+width:45%;
 }
-
-/* RETAIL SECTION */
 
 .retail-container{
 flex-direction:column;
@@ -733,16 +686,11 @@ width:100%;
 height:auto;
 }
 
-.retail-content h2{
-font-size:26px;
-}
-
-/* FOOTER */
-
 .footer-content{
 flex-direction:column;
-gap:40px;
+align-items:center;
 text-align:center;
+gap:40px;
 }
 
 .footer-center{
@@ -753,8 +701,65 @@ left:0;
 margin-left:0;
 }
 
-.footer-logo{
-width:120px;
+}
+
+/* Mobile */
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.top-content{
+flex-direction:column;
+gap:10px;
+text-align:center;
+}
+
+.navbar{
+flex-direction:column;
+gap:10px;
+}
+
+.jewel-content h1{
+font-size:28px;
+}
+
+.cards{
+flex-direction:column;
+align-items:center;
+}
+
+.card{
+width:100%;
+max-width:400px;
+flex:none;
+}
+
+.features-container{
+gap:40px;
+}
+
+.retail-content h2{
+font-size:28px;
+}
+
+.dashboard-content{
+text-align:center;
+}
+
+/* HERO IMAGE FIX */
+
+.jewel-image{
+display:flex;
+justify-content:center;
+width:100%;
+}
+
+.jewel-image img{
+width:100%;
+max-width:300px;
+height:auto;
+margin:0 auto;
 }
 
 }

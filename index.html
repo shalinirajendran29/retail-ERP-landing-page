@@ -55,13 +55,17 @@ All-in-One Jewellery ERP — manage products, tagging, quotations, billing, inve
 
 <form id="demoForm">
 
-<input type="text" name="name" class="form-control mb-3" placeholder="Your Name" required>
+<input type="text" name="name" class="form-control mb-3"placeholder="Your Name"pattern="[A-Za-z ]+" 
+title="Name should contain only letters"
+required>
+<input type="email" name="email" class="form-control mb-3"placeholder="Your Email"required>
+<input type="tel" name="phone" class="form-control mb-3"placeholder="Phone Number"pattern="[0-9]{10}"
+title="Phone number must be 10 digits"
+required>
+<input type="text" name="company" class="form-control mb-3"
+placeholder="Company Name"
+required>
 
-<input type="email" name="email" class="form-control mb-3" placeholder="Your Email" required>
-
-<input type="tel" name="phone" class="form-control mb-3" placeholder="Phone Number" required>
-
-<input type="text" name="company" class="form-control mb-3" placeholder="Company Name" required>
 
 <div class="text-center mt-3">
 
@@ -209,11 +213,11 @@ Stock Management Dashboard provides a clear, real-time view of your inventory ac
 <li>Real-time stock monitoring and inventory tracking
 </li>
 
-<li>Stock aging insights with graphical reports</li>
+<li>Monthly performance insights with interactive graphs</li>
 
-<li>Low stock alerts and inventory notifications</li>
+<li>Individual salesperson stats: sales, returns, and invoices</li>
 
-<li> Material-wise stock analysis for better decisions</li>
+<li>Valuable customer identification for better engagement</li>
 
 </ul>
 
