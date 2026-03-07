@@ -704,6 +704,8 @@ margin-left:0;
 
 /* Mobile */
 
+/* Mobile */
+
 @media (max-width:768px){
 
 .top-content{
@@ -743,15 +745,20 @@ font-size:28px;
 .dashboard-content{
 text-align:center;
 }
-.hero-image{
+
+/* HERO IMAGE FIX */
+
+.jewel-image{
 display:flex;
 justify-content:center;
-}
-
-.hero-image img{
 width:100%;
-max-width:320px;
-height:auto;
-
 }
+
+.jewel-image img{
+width:100%;
+max-width:300px;
+height:auto;
+margin:0 auto;
+}
+
 }
