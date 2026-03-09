@@ -39,8 +39,8 @@ e.preventDefault();
 
 form.style.display = "block";
 form.style.position = "fixed";
-form.style.top = "30%";
-form.style.left = "60%";
+form.style.top = "50%";
+form.style.left = "47%";
 form.style.transform = "translate(-50%, -50%)";
 
 };
@@ -50,7 +50,11 @@ form.style.transform = "translate(-50%, -50%)";
 
 document.getElementById("heroDemoBtn").onclick=function(e){
 e.preventDefault();
-openForm(this);
+form.style.display = "block";
+form.style.position = "fixed";
+form.style.top = "50%";
+form.style.left = "47%";
+form.style.transform = "translate(-50%, -50%)";
 };
 
 

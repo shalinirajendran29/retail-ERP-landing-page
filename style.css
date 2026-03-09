@@ -459,91 +459,93 @@ transform:translateY(-5px);
 
 /*features end*/
 
+/* Testimonial start */
 
-/* Retail Section */
+/* Testimonials Section */
 
-.retail-section{
-padding:80px 10%;
-background:#ffffff;
+.testimonials{
+padding:10px 10%;
+background:#f8f8f8;
+text-align:center;
 }
 
-.retail-container{
+/* Heading */
+
+.testimonials h2{
+font-size:32px;
+margin-bottom:19px;
+color:#000000;
+}
+.test-subtitle{
+text-align:center;
+color:#777;
+font-size:15px;
+margin-top:8px;
+margin-bottom:25px;
+}
+
+/* Cards container */
+
+.testimonial-container{
 display:flex;
-align-items:center;
-justify-content:space-between;
-gap:60px;
+justify-content:center;
+gap:50px;
 flex-wrap:wrap;
+}
+
+/* Card design */
+
+.testimonial-card{
+background:#fff;
+width:300px;
+margin: 10px;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+border-top:4px solid #7a1c2e;
+text-align:center;
+transition:0.3s;
+}
+
+/* Hover effect */
+
+.testimonial-card:hover{
+transform:translateY(-8px);
+}
+
+/* Quote icon */
+
+.testimonial-card .quote{
+font-size:35px;
+color:#7a1c2e;
+display:block;
+margin-bottom:15px;
 }
 
 /* Text */
 
-.retail-content{
-max-width:550px;
-}
-
-.small-title{
-color:#6D2E3D;
-font-size:14px;
-font-weight:700;
-margin-bottom:10px;
-letter-spacing:1px;
-}
-
-.retail-content h2{
-font-size:36px;
-margin-bottom:20px;
-}
-
-.retail-content p{
+.testimonial-card p{
+font-size:15px;
 color:#555;
-line-height:1.6;
 margin-bottom:20px;
+line-height:1.6;
 }
 
-/* Bullet List */
+/* Name */
 
-.retail-list{
-list-style:none;
-padding:0;
-margin-bottom:25px;
+.testimonial-card h3{
+font-size:18px;
+margin-bottom:5px;
 }
 
-.retail-list li{
-margin-bottom:10px;
-position:relative;
-padding-left:25px;
+/* Client type */
+
+.testimonial-card .client{
+font-size:13px;
+color:gray;
 }
 
-.retail-list li::before{
-content:"✔";
-position:absolute;
-left:0;
-color:#6D2E3D;
-font-weight:bold;
-}
-
-/* Button */
-
-.demo-button{
-display:inline-block;
-background:#6D2E3D;
-color:white;
-padding:12px 24px;
-border-radius:6px;
-text-decoration:none;
-font-weight:600;
-transition:0.3s;
-}
-
-
-/* Image */
-
-.retail-image img{
-width:400px;
-height: 400px;
-max-width:100%;
-
-}
+/* Testimonial end */
 
 
 
