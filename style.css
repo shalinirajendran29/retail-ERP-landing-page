@@ -729,7 +729,7 @@ justify-content:space-between;
 align-items:center;
 flex-wrap:nowrap;
 gap:8px;
-font-size: 13px;
+font-size: 14px;
 }
 
 /* NAVBAR LOGO LEFT BUTTON RIGHT */
@@ -823,10 +823,11 @@ padding:0 15px;
 /* card size */
 
 .testimonial-card{
-flex:0 0 80%;
-max-width:80%;
+flex:0 0 60%;
+max-width:60%;
 margin:0;
 scroll-snap-align:start;
+padding: 5px;
 }
 
 /* hide scrollbar */
