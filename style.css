@@ -720,6 +720,39 @@ text-align:center;
 flex-direction:column;
 gap:10px;
 }
+/* CONTACT INFO STRAIGHT LINE */
+
+.top-content{
+display:flex;
+flex-direction:row !important;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:12px;
+}
+
+/* NAVBAR LOGO LEFT BUTTON RIGHT */
+
+.navbar{
+display:flex;
+flex-direction:row !important;
+justify-content:space-between;
+align-items:center;
+}
+
+/* LOGO SIZE MOBILE */
+
+.logo img{
+max-width:90px;
+height:auto;
+}
+
+/* REQUEST DEMO BUTTON */
+
+.request-demo{
+padding:6px 12px;
+font-size:12px;
+}
 
 .jewel-content h1{
 font-size:28px;
