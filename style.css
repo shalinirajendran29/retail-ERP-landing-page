@@ -766,7 +766,7 @@ align-items:center;
 
 .card{
 width:100%;
-max-width:400px;
+max-width:550px;
 flex:none;
 }
 
@@ -823,11 +823,11 @@ padding:0 15px;
 /* card size */
 
 .testimonial-card{
-flex:0 0 60%;
-max-width:60%;
+flex:0 0 65%;
+max-width:65%;
 margin:0;
 scroll-snap-align:start;
-padding: 5px;
+padding: 10px;
 }
 
 /* hide scrollbar */
