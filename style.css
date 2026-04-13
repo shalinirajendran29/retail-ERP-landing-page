@@ -628,11 +628,10 @@ font-size:14px;
 }
 
 
-/* ---------------- RESPONSIVE DESIGN ---------------- */
+/* ================= RESPONSIVE DESIGN ================= */
 
-/* ---------------- RESPONSIVE DESIGN ---------------- */
 
-/* SMALL LAPTOP (≤1200px) */
+/* ===== SMALL LAPTOP (≤1200px) ===== */
 
 @media (max-width:1200px){
 
@@ -660,7 +659,7 @@ font-size:14px;
 }
 
 
-/* TABLET (≤1024px) */
+/* ===== TABLET (≤1024px) ===== */
 
 @media (max-width:1024px){
 
@@ -715,7 +714,7 @@ font-size:14px;
 }
 
 
-/* MOBILE (≤768px) */
+/* ===== MOBILE (≤768px) ===== */
 
 @media (max-width:768px){
 
@@ -724,11 +723,12 @@ font-size:14px;
   .navbar{
     flex-direction:row !important;
     justify-content:space-between;
-    gap:10px;
+    align-items:center;
   }
 
   .logo img{
     max-width:90px;
+    height:auto;
   }
 
   /* HERO */
@@ -752,6 +752,7 @@ font-size:14px;
   .jewel-image{
     display:flex;
     justify-content:center;
+    width:100%;
   }
 
   .jewel-image img{
@@ -802,11 +803,17 @@ font-size:14px;
     text-align:center;
   }
 
+  .footer-right h3{
+    margin-top:20px;
+  }
+
   .footer-right p{
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:8px;
+    gap:10px;
+    text-align:center;
+    line-height:1.6;
   }
 
   .footer-right a{
@@ -814,12 +821,28 @@ font-size:14px;
     justify-content:center;
     align-items:center;
     gap:8px;
+    word-break:break-all;
+  }
+
+  .footer-right p img{
+    width:18px;
+    height:18px;
+  }
+
+  /* SOCIAL ICON */
+
+  .social-icons{
+    justify-content:center;
+  }
+
+  .social-icons i{
+    font-size:18px;
   }
 
 }
 
 
-/* EXTRA SMALL MOBILE (≤480px) */
+/* ===== EXTRA SMALL MOBILE (≤480px) ===== */
 
 @media (max-width:480px){
 
