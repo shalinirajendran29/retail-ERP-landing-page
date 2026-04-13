@@ -810,9 +810,9 @@ font-size:14px;
   .footer-right p{
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:flex-start;
     gap:10px;
-    text-align:center;
+    text-align:left;
     line-height:1.6;
   }
 
@@ -827,6 +827,7 @@ font-size:14px;
   .footer-right p img{
     width:18px;
     height:18px;
+    margin-top: 4px;
   }
 
   /* SOCIAL ICON */
